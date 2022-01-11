@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6E72BC247031223CE2E8DA /* Pods_PickerTestEarlGrey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF72307539D99F38B7FD8488 /* Pods_PickerTestEarlGrey.framework */; };
+		AE9D214F278E0E9800D5CE2D /* PickerTestEarlGreyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D214E278E0E9800D5CE2D /* PickerTestEarlGreyApp.swift */; };
+		AE9D2151278E0E9800D5CE2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2150278E0E9800D5CE2D /* ContentView.swift */; };
+		AE9D2153278E0E9B00D5CE2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9D2152278E0E9B00D5CE2D /* Assets.xcassets */; };
+		AE9D2156278E0E9B00D5CE2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9D2155278E0E9B00D5CE2D /* Preview Assets.xcassets */; };
+		AE9D2160278E0E9B00D5CE2D /* PickerTestEarlGreyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D215F278E0E9B00D5CE2D /* PickerTestEarlGreyTests.swift */; };
+		AE9D2179278E0F0900D5CE2D /* UITestExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2178278E0F0900D5CE2D /* UITestExample.swift */; };
+		AE9D217D278E105300D5CE2D /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D217B278E105300D5CE2D /* EarlGrey.swift */; };
+		C6E71834C0E995B1593505EE /* Pods_PickerTestEarlGreyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0D0BFE0E7D008332BF696E /* Pods_PickerTestEarlGreyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9D215C278E0E9B00D5CE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9D2143278E0E9800D5CE2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9D214A278E0E9800D5CE2D;
+			remoteInfo = PickerTestEarlGrey;
+		};
+		AE9D2166278E0E9B00D5CE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9D2143278E0E9800D5CE2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9D214A278E0E9800D5CE2D;
+			remoteInfo = PickerTestEarlGrey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017CD0FEE37A679F0C82ABAF /* Pods-PickerTestEarlGreyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerTestEarlGreyUITests.release.xcconfig"; path = "Target Support Files/Pods-PickerTestEarlGreyUITests/Pods-PickerTestEarlGreyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20BD79D0D088C66A808A89DB /* Pods-PickerTestEarlGreyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerTestEarlGreyUITests.debug.xcconfig"; path = "Target Support Files/Pods-PickerTestEarlGreyUITests/Pods-PickerTestEarlGreyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A0D0BFE0E7D008332BF696E /* Pods_PickerTestEarlGreyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerTestEarlGreyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C92A8E0E11537F0E042CF21 /* Pods-PickerTestEarlGrey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerTestEarlGrey.release.xcconfig"; path = "Target Support Files/Pods-PickerTestEarlGrey/Pods-PickerTestEarlGrey.release.xcconfig"; sourceTree = "<group>"; };
+		AE9D214B278E0E9800D5CE2D /* PickerTestEarlGrey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerTestEarlGrey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9D214E278E0E9800D5CE2D /* PickerTestEarlGreyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTestEarlGreyApp.swift; sourceTree = "<group>"; };
+		AE9D2150278E0E9800D5CE2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE9D2152278E0E9B00D5CE2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9D2155278E0E9B00D5CE2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE9D215B278E0E9B00D5CE2D /* PickerTestEarlGreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerTestEarlGreyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9D215F278E0E9B00D5CE2D /* PickerTestEarlGreyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTestEarlGreyTests.swift; sourceTree = "<group>"; };
+		AE9D2165278E0E9B00D5CE2D /* PickerTestEarlGreyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerTestEarlGreyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9D2178278E0F0900D5CE2D /* UITestExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestExample.swift; sourceTree = "<group>"; };
+		AE9D217B278E105300D5CE2D /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		AE9D217C278E105300D5CE2D /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		B9E7DEA70F9F70222FDFB748 /* Pods-PickerTestEarlGrey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickerTestEarlGrey.debug.xcconfig"; path = "Target Support Files/Pods-PickerTestEarlGrey/Pods-PickerTestEarlGrey.debug.xcconfig"; sourceTree = "<group>"; };
+		CF72307539D99F38B7FD8488 /* Pods_PickerTestEarlGrey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickerTestEarlGrey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9D2148278E0E9800D5CE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E72BC247031223CE2E8DA /* Pods_PickerTestEarlGrey.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2158278E0E9B00D5CE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2162278E0E9B00D5CE2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E71834C0E995B1593505EE /* Pods_PickerTestEarlGreyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C0D1E89B172FB46183F92A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF72307539D99F38B7FD8488 /* Pods_PickerTestEarlGrey.framework */,
+				3A0D0BFE0E7D008332BF696E /* Pods_PickerTestEarlGreyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9D2142278E0E9800D5CE2D = {
+			isa = PBXGroup;
+			children = (
+				AE9D214D278E0E9800D5CE2D /* PickerTestEarlGrey */,
+				AE9D215E278E0E9B00D5CE2D /* PickerTestEarlGreyTests */,
+				AE9D2168278E0E9B00D5CE2D /* PickerTestEarlGreyUITests */,
+				AE9D214C278E0E9800D5CE2D /* Products */,
+				FFE9166B13349A1395A49C2F /* Pods */,
+				9C0D1E89B172FB46183F92A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9D214C278E0E9800D5CE2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D214B278E0E9800D5CE2D /* PickerTestEarlGrey.app */,
+				AE9D215B278E0E9B00D5CE2D /* PickerTestEarlGreyTests.xctest */,
+				AE9D2165278E0E9B00D5CE2D /* PickerTestEarlGreyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9D214D278E0E9800D5CE2D /* PickerTestEarlGrey */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D214E278E0E9800D5CE2D /* PickerTestEarlGreyApp.swift */,
+				AE9D2150278E0E9800D5CE2D /* ContentView.swift */,
+				AE9D2152278E0E9B00D5CE2D /* Assets.xcassets */,
+				AE9D2154278E0E9B00D5CE2D /* Preview Content */,
+			);
+			path = PickerTestEarlGrey;
+			sourceTree = "<group>";
+		};
+		AE9D2154278E0E9B00D5CE2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D2155278E0E9B00D5CE2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE9D215E278E0E9B00D5CE2D /* PickerTestEarlGreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D215F278E0E9B00D5CE2D /* PickerTestEarlGreyTests.swift */,
+			);
+			path = PickerTestEarlGreyTests;
+			sourceTree = "<group>";
+		};
+		AE9D2168278E0E9B00D5CE2D /* PickerTestEarlGreyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE9D217C278E105300D5CE2D /* BridgingHeader.h */,
+				AE9D217B278E105300D5CE2D /* EarlGrey.swift */,
+				AE9D2178278E0F0900D5CE2D /* UITestExample.swift */,
+			);
+			path = PickerTestEarlGreyUITests;
+			sourceTree = "<group>";
+		};
+		FFE9166B13349A1395A49C2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E7DEA70F9F70222FDFB748 /* Pods-PickerTestEarlGrey.debug.xcconfig */,
+				8C92A8E0E11537F0E042CF21 /* Pods-PickerTestEarlGrey.release.xcconfig */,
+				20BD79D0D088C66A808A89DB /* Pods-PickerTestEarlGreyUITests.debug.xcconfig */,
+				017CD0FEE37A679F0C82ABAF /* Pods-PickerTestEarlGreyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9D214A278E0E9800D5CE2D /* PickerTestEarlGrey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9D216F278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGrey" */;
+			buildPhases = (
+				821B676DFD2545A82B05C724 /* [CP] Check Pods Manifest.lock */,
+				AE9D2147278E0E9800D5CE2D /* Sources */,
+				AE9D2148278E0E9800D5CE2D /* Frameworks */,
+				AE9D2149278E0E9800D5CE2D /* Resources */,
+				01465514C32492CDEC10E19A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickerTestEarlGrey;
+			productName = PickerTestEarlGrey;
+			productReference = AE9D214B278E0E9800D5CE2D /* PickerTestEarlGrey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE9D215A278E0E9B00D5CE2D /* PickerTestEarlGreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9D2172278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGreyTests" */;
+			buildPhases = (
+				AE9D2157278E0E9B00D5CE2D /* Sources */,
+				AE9D2158278E0E9B00D5CE2D /* Frameworks */,
+				AE9D2159278E0E9B00D5CE2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9D215D278E0E9B00D5CE2D /* PBXTargetDependency */,
+			);
+			name = PickerTestEarlGreyTests;
+			productName = PickerTestEarlGreyTests;
+			productReference = AE9D215B278E0E9B00D5CE2D /* PickerTestEarlGreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE9D2164278E0E9B00D5CE2D /* PickerTestEarlGreyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9D2175278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGreyUITests" */;
+			buildPhases = (
+				CB83297361384048FC53CD51 /* [CP] Check Pods Manifest.lock */,
+				AE9D2161278E0E9B00D5CE2D /* Sources */,
+				AE9D2162278E0E9B00D5CE2D /* Frameworks */,
+				AE9D2163278E0E9B00D5CE2D /* Resources */,
+				BF0348F5CF1B2741BEE7A02E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9D2167278E0E9B00D5CE2D /* PBXTargetDependency */,
+			);
+			name = PickerTestEarlGreyUITests;
+			productName = PickerTestEarlGreyUITests;
+			productReference = AE9D2165278E0E9B00D5CE2D /* PickerTestEarlGreyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9D2143278E0E9800D5CE2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AE9D214A278E0E9800D5CE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AE9D215A278E0E9B00D5CE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AE9D214A278E0E9800D5CE2D;
+					};
+					AE9D2164278E0E9B00D5CE2D = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+						TestTargetID = AE9D214A278E0E9800D5CE2D;
+					};
+				};
+			};
+			buildConfigurationList = AE9D2146278E0E9800D5CE2D /* Build configuration list for PBXProject "PickerTestEarlGrey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9D2142278E0E9800D5CE2D;
+			productRefGroup = AE9D214C278E0E9800D5CE2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9D214A278E0E9800D5CE2D /* PickerTestEarlGrey */,
+				AE9D215A278E0E9B00D5CE2D /* PickerTestEarlGreyTests */,
+				AE9D2164278E0E9B00D5CE2D /* PickerTestEarlGreyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9D2149278E0E9800D5CE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9D2156278E0E9B00D5CE2D /* Preview Assets.xcassets in Resources */,
+				AE9D2153278E0E9B00D5CE2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2159278E0E9B00D5CE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2163278E0E9B00D5CE2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01465514C32492CDEC10E19A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGrey/Pods-PickerTestEarlGrey-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGrey/Pods-PickerTestEarlGrey-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGrey/Pods-PickerTestEarlGrey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		821B676DFD2545A82B05C724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerTestEarlGrey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0348F5CF1B2741BEE7A02E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGreyUITests/Pods-PickerTestEarlGreyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGreyUITests/Pods-PickerTestEarlGreyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PickerTestEarlGreyUITests/Pods-PickerTestEarlGreyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB83297361384048FC53CD51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PickerTestEarlGreyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9D2147278E0E9800D5CE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9D2151278E0E9800D5CE2D /* ContentView.swift in Sources */,
+				AE9D214F278E0E9800D5CE2D /* PickerTestEarlGreyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2157278E0E9B00D5CE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9D2160278E0E9B00D5CE2D /* PickerTestEarlGreyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9D2161278E0E9B00D5CE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9D217D278E105300D5CE2D /* EarlGrey.swift in Sources */,
+				AE9D2179278E0F0900D5CE2D /* UITestExample.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE9D215D278E0E9B00D5CE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE9D214A278E0E9800D5CE2D /* PickerTestEarlGrey */;
+			targetProxy = AE9D215C278E0E9B00D5CE2D /* PBXContainerItemProxy */;
+		};
+		AE9D2167278E0E9B00D5CE2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE9D214A278E0E9800D5CE2D /* PickerTestEarlGrey */;
+			targetProxy = AE9D2166278E0E9B00D5CE2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AE9D216D278E0E9B00D5CE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE9D216E278E0E9B00D5CE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9D2170278E0E9B00D5CE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E7DEA70F9F70222FDFB748 /* Pods-PickerTestEarlGrey.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerTestEarlGrey/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGrey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9D2171278E0E9B00D5CE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C92A8E0E11537F0E042CF21 /* Pods-PickerTestEarlGrey.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PickerTestEarlGrey/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGrey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE9D2173278E0E9B00D5CE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerTestEarlGrey.app/PickerTestEarlGrey";
+			};
+			name = Debug;
+		};
+		AE9D2174278E0E9B00D5CE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickerTestEarlGrey.app/PickerTestEarlGrey";
+			};
+			name = Release;
+		};
+		AE9D2176278E0E9B00D5CE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BD79D0D088C66A808A89DB /* Pods-PickerTestEarlGreyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGreyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)UITests/BridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickerTestEarlGrey;
+			};
+			name = Debug;
+		};
+		AE9D2177278E0E9B00D5CE2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017CD0FEE37A679F0C82ABAF /* Pods-PickerTestEarlGreyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.earlgreytest.PickerTestEarlGreyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_NAME)UITests/BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PickerTestEarlGrey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9D2146278E0E9800D5CE2D /* Build configuration list for PBXProject "PickerTestEarlGrey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D216D278E0E9B00D5CE2D /* Debug */,
+				AE9D216E278E0E9B00D5CE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9D216F278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGrey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D2170278E0E9B00D5CE2D /* Debug */,
+				AE9D2171278E0E9B00D5CE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9D2172278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D2173278E0E9B00D5CE2D /* Debug */,
+				AE9D2174278E0E9B00D5CE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9D2175278E0E9B00D5CE2D /* Build configuration list for PBXNativeTarget "PickerTestEarlGreyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9D2176278E0E9B00D5CE2D /* Debug */,
+				AE9D2177278E0E9B00D5CE2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9D2143278E0E9800D5CE2D /* Project object */;
+}
